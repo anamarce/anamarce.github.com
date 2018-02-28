@@ -742,11 +742,11 @@ ul li {
 
 
 .page-container .single-page:first-of-type::before {
-  content:'img/img-1-large.jpg';
+  content:"img/me.png";
 }
 
 .page-container .single-page:first-of-type::after {
-  background-image:url("../img/img-1-large.jpg")
+  background-image:url("../img/me.png")
 }
 
 .page-container .single-page:nth-of-type(2) {
@@ -755,11 +755,11 @@ ul li {
 }
 
 .page-container .single-page:nth-of-type(2)::before {
-  content:'img/img-2-large.jpg';
+  content:'img/img-2-large.jpeg';
 }
 
 .page-container .single-page:nth-of-type(2)::after {
-  background-image:url("../img/img-2-large.jpg")
+  background-image:url("../img/img-2-large.jpeg")
 }
 
 .page-container .single-page:nth-of-type(3) {
@@ -768,11 +768,11 @@ ul li {
 }
 
 .page-container .single-page:nth-of-type(3)::before {
-  content:'img/img-3-large.jpg';
+  content:'img/projects.jpg';
 }
 
 .page-container .single-page:nth-of-type(3)::after {
-  background-image:url("../img/img-3-large.jpg")
+  background-image:url("../img/projects.jpg")
 }
 
 .page-container .single-page:nth-of-type(4) {
