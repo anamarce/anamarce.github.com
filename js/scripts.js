@@ -189,8 +189,8 @@ jQuery(document).ready(function($) {
     map = new GMaps({
         position: "TOP_CENTER",
         el: '#map',
-        lat: 23.790223,
-        lng: 90.414036,
+        lat: 45.4215296,
+        lng: -75.69719309999999,
         zoom: 13,
         zoomControl: true,
         zoomControlOpt: {
@@ -202,8 +202,8 @@ jQuery(document).ready(function($) {
     });
     // add address markers
     map.addMarker({
-        lat: 23.790223,
-        lng: 90.414036,
+        lat: 45.4215296,
+        lng: -75.69719309999999,
         title: 'Codetic',
         infoWindow: {
             content: '<p> Mirpur , Dhaka</p>'
