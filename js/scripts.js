@@ -213,7 +213,7 @@ jQuery(document).ready(function($) {
 
     // Contact Form
 
-    $('form#contactForm button.submit').click(function() {
+    $('form#contactForm button.submit1').click(function() {
 
         $('#image-loader').fadeIn();
 
@@ -225,10 +225,9 @@ jQuery(document).ready(function($) {
 
         $.ajax({
 
-            url: "https://formspree.io/contactForm",
-            method: "POST",
-            data: {message: "hello!"},
-            dataType: "json",
+            type: "POST",
+            url: "inc/sendEmail.php",
+            data: data,
             success: function(msg) {
 
                 // Message was sent
