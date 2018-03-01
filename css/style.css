@@ -100,7 +100,7 @@ h5 {
 
 h6 {
   font-size:.75em;
-  margin:1.67em 0
+  margin:.67em 0
 }
 
 ul li {
@@ -567,7 +567,7 @@ ul li {
   margin-top:100vh;
   cursor:auto;
   background-color:#fff;
-  color:#3f538e;
+  color:#838c95;
   -webkit-transition: opacity 0.4s 0s, visibility 0s 0.4s;
   -moz-transition: opacity 0.4s 0s, visibility 0s 0.4s;
   -ms-transition: opacity 0.4s 0s, visibility 0s 0.4s;
@@ -1188,7 +1188,7 @@ ul li {
   font-size:13px
 }
 
-.education ul li p,.employment ul li p {
+.education ul li p,.employment ul li p h6{
   color:#838c95;
   font-size:14px;
   line-height:24px;
