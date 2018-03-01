@@ -186,34 +186,34 @@ jQuery(document).ready(function($) {
 
 
     // main directions
-    map = new GMaps({
-        position: "TOP_CENTER",
-        el: '#map',
-        lat: 45.4215296,
-        lng: -75.69719309999999,
-        zoom: 13,
-        zoomControl: true,
-        zoomControlOpt: {
-            style: 'SMALL',
-            position: 'TOP_LEFT'
-        },
-        panControl: false,
-        scrollwheel: false
-    });
-    // add address markers
-    map.addMarker({
-        lat: 45.4215296,
-        lng: -75.69719309999999,
-        title: 'Codetic',
-        infoWindow: {
-            content: '<p> Mirpur , Dhaka</p>'
-        }
-    });
+    // map = new GMaps({
+    //     position: "TOP_CENTER",
+    //     el: '#map',
+    //     lat: 45.4215296,
+    //     lng: -75.69719309999999,
+    //     zoom: 13,
+    //     zoomControl: true,
+    //     zoomControlOpt: {
+    //         style: 'SMALL',
+    //         position: 'TOP_LEFT'
+    //     },
+    //     panControl: false,
+    //     scrollwheel: false
+    // });
+    // // add address markers
+    // map.addMarker({
+    //     lat: 45.4215296,
+    //     lng: -75.69719309999999,
+    //     title: 'Codetic',
+    //     infoWindow: {
+    //         content: '<p> Mirpur , Dhaka</p>'
+    //     }
+    // });
 
 
     // Contact Form
 
-    $('form#contactForm button.submit').click(function() {
+    $('form#contactForm button.submit1').click(function() {
 
         $('#image-loader').fadeIn();
 
