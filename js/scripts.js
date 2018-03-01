@@ -225,9 +225,10 @@ jQuery(document).ready(function($) {
 
         $.ajax({
 
-            type: "POST",
-            url: "inc/sendEmail.php",
-            data: data,
+            url: "https://formspree.io/contactForm",
+            method: "POST",
+            data: {message: "hello!"},
+            dataType: "json",
             success: function(msg) {
 
                 // Message was sent
