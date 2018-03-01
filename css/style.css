@@ -428,7 +428,7 @@ ul li {
   left:0;
   height:25vh;
   width:100%;
-  background-image:url("../img/img-1-small.jpg");
+  background-image:url("../img/me-small.png");
   background-repeat:no-repeat;
   background-position:center center;
   background-size:cover;
@@ -441,7 +441,7 @@ ul li {
 
 .page-container .single-page::before {
 /* never visible - this is used in jQuery to detect if the background image has been loaded  */
-  content:'img/img-1-small.jpg';
+  content:'img/me-small.png';
   display:none
 }
 
@@ -602,6 +602,7 @@ ul li {
   top:30px;
   right:5%;
   background:url("../img/icons/icon-close-mobile.svg") no-repeat center center;
+  color: #05abe0;
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -755,11 +756,11 @@ ul li {
 }
 
 .page-container .single-page:nth-of-type(2)::before {
-  content:'img/img-2-large.jpeg';
+  content:'img/img-2-large.jpg';
 }
 
 .page-container .single-page:nth-of-type(2)::after {
-  background-image:url("../img/img-2-large.jpeg")
+  background-image:url("../img/img-2-large.jpg")
 }
 
 .page-container .single-page:nth-of-type(3) {
