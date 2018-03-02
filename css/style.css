@@ -450,11 +450,11 @@ ul li {
 }
 
 .page-container .single-page:nth-of-type(2)::after {
-  background-image:url("../img/projects-small.png")
+  background-image:url("../img/img-2-small.jpg")
 }
 
 .page-container .single-page:nth-of-type(2)::before {
-  content:'img/projects-small.png'
+  content:'img/img-2-small.jpg'
 }
 
 .page-container .single-page:nth-of-type(3) {
@@ -462,11 +462,11 @@ ul li {
 }
 
 .page-container .single-page:nth-of-type(3)::after {
-  background-image:url("../img/img-3-small.jpg")
+  background-image:url("../img/iprojects-small.png")
 }
 
 .page-container .single-page:nth-of-type(3)::before {
-  content:'img/img-3-small.jpg'
+  content:'img/projects-small.png'
 }
 
 .page-container .single-page:nth-of-type(4) {
