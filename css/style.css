@@ -450,11 +450,11 @@ ul li {
 }
 
 .page-container .single-page:nth-of-type(2)::after {
-  background-image:url("../img/img-2-small.jpg")
+  background-image:url("../img/projects-small.png")
 }
 
 .page-container .single-page:nth-of-type(2)::before {
-  content:'img/img-2-small.jpg'
+  content:'img/projects-small.png'
 }
 
 .page-container .single-page:nth-of-type(3) {
