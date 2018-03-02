@@ -2057,5 +2057,12 @@ button.filter + label {
   max-width:inherit!important
 } */
 
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
 
+img[data-src] {
+  opacity: 0;
+}
 

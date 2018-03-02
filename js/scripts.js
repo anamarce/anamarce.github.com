@@ -7,9 +7,11 @@
 
     });
 
+
 // Global document ready function
 
 jQuery(document).ready(function($) {
+
      // "use strict";
     //check if background-images have been loaded and show single pages
     $('.single-page').bgLoaded({
@@ -180,36 +182,6 @@ jQuery(document).ready(function($) {
             }, offset);
         }
     });
-
-
-    // Google Map
-
-
-    // main directions
-    // map = new GMaps({
-    //     position: "TOP_CENTER",
-    //     el: '#map',
-    //     lat: 45.4215296,
-    //     lng: -75.69719309999999,
-    //     zoom: 13,
-    //     zoomControl: true,
-    //     zoomControlOpt: {
-    //         style: 'SMALL',
-    //         position: 'TOP_LEFT'
-    //     },
-    //     panControl: false,
-    //     scrollwheel: false
-    // });
-    // // add address markers
-    // map.addMarker({
-    //     lat: 45.4215296,
-    //     lng: -75.69719309999999,
-    //     title: 'Codetic',
-    //     infoWindow: {
-    //         content: '<p> Mirpur , Dhaka</p>'
-    //     }
-    // });
-
 
     // Contact Form
 
