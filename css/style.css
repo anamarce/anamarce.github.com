@@ -1150,7 +1150,7 @@ ul li {
   color:#3f3f46;
   font-size:18px;
   letter-spacing:1px;
-  padding:36px 0;
+  padding:20px 0;
   text-transform: uppercase
 }
 
@@ -1182,7 +1182,7 @@ ul li {
 }
 
 .education ul li span,.employment ul li span {
-  color:#0ed4c8;
+  color:#358782;
   display:inline-block;
   margin:5px 0 10px;
   font-size:13px
@@ -1656,7 +1656,7 @@ button.filter + label {
   position:absolute;
   right:0;
   top:0;
-  width:50%
+  width:63%
 }
 
 .testimonials .sec-divider {
@@ -1863,7 +1863,7 @@ button.filter + label {
 }
 
 .form-container input[type="email"] {
-  float:right
+  float:left
 }
 
 #message-warning {
@@ -1936,7 +1936,7 @@ button.filter + label {
 }
 
 .address {
-  background: none repeat scroll 0 0 #fe7c60;
+  background: none repeat scroll 0 0 #0ed4c8;
   min-height: 400px;
   padding: 100px 0;
   position: relative;
